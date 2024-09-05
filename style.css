@@ -1,0 +1,71 @@
+/* Reset default margin and padding */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Center content and set background color for the container */
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8a2be2; /* Blueviolet */
+}
+
+/* Style for input fields */
+input {
+    padding: 10px 20px;
+
+    width: 300px;
+    /* font-size: 20px; */
+    border-radius: 10px;
+    border: 2px solid #fff; 
+    background-color: #fff; 
+}
+
+/* Style for headings */
+h2 {
+    color: #fff;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Style for paragraph text */
+p {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 45rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    text-align: center; /* Center-align text for better readability */
+}
+
+/* Highlight text with a mark element */
+mark {
+    background-color: #ff6347; /* Tomato red */
+    color: #fff; /* White text for better contrast */
+}
+
+/* Style for span containing button */
+span button {
+    padding: 10px 20px;
+    background-color: #4caf50; /* Green background */
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff; /* White text */
+    font-size: 1rem;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+span button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
